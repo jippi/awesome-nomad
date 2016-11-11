@@ -65,7 +65,7 @@ job "kafka" {
 		command = "/bin/sh"
 		args = ["/usr/bin/kafka/start-kafka.sh"]
                 volumes = [
-                    "../kafka/local/kafka/config:/usr/bin/kafka"
+                    "${NOMAD_TASK_DIR}/kafka/config:/usr/bin/kafka"
                     ]
                 }
             resources {
