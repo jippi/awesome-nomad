@@ -96,7 +96,7 @@ job "zookeeper" {
                 }
                 resources {
                         network {
-                                mbits = 10
+                                mbits = 5
                                 port "zk" {}
                         }
                 }
