@@ -21,11 +21,6 @@ job "zookeeper" {
       value     = "linux"
     }
 
-    constraint {
-      attribute = "${meta.zk_host_key}"
-      value     = "zookeeper"
-    }
-
     # specify the number of attemtps to run the job within the specified interval
     restart {
       attempts = 10
