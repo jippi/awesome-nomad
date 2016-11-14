@@ -32,6 +32,27 @@ job "zookeeper" {
     task "zookeeper" {
       driver = "docker"
 
+      config {
+        image = "<DOCKER_IMAGE_NAME>"
+
+        auth {
+          username = "<DOCKER_REGISTRY_USER>"
+          password = "<DOCKER_REGISTRY_PASSWORD>"
+        }
+
+        port_map {
+          zoo_port  = 2181
+          zoo_peer1 = 2888
+          zoo_peer2 = 3888
+        }
+
+        volumes = [
+          "${NOMAD_TASK_DIR}/zookeeper/conf/zoo.cfg:/conf/zoo.cfg",
+          "${NOMAD_TASK_DIR}/zookeeper/data:/data",
+          "${NOMAD_TASK_DIR}/zookeeper/datalog:/datalog",
+        ]
+      }
+
       artifact {
         source      = "https://gist.githubusercontent.com/smuthali/d267efdc67f269efefeebf7668618a69/raw/c4af50d8373d1ffa6b521522de06ffcf41f4a6c1/zoo.tpl"
         destination = "local"
@@ -52,27 +73,6 @@ job "zookeeper" {
         source      = "local/myid.tpl"
         destination = "local/zookeeper/data/myid"
         change_mode = "noop"
-      }
-
-      config {
-        image = "<DOCKER_IMAGE_NAME>"
-
-        auth {
-          username = "<DOCKER_REGISTRY_USER>"
-          password = "<DOCKER_REGISTRY_PASSWORD>"
-        }
-
-        port_map {
-          zoo_port  = 2181
-          zoo_peer1 = 2888
-          zoo_peer2 = 3888
-        }
-
-        volumes = [
-          "${NOMAD_TASK_DIR}/zookeeper/conf/zoo.cfg:/conf/zoo.cfg",
-          "${NOMAD_TASK_DIR}/zookeeper/data:/data",
-          "${NOMAD_TASK_DIR}/zookeeper/datalog:/datalog",
-        ]
       }
 
       resources {
