@@ -34,6 +34,24 @@ job "zookeeper" {
             mode = "delay"
         }
 
+        task "zk-check" {
+            driver = "exec"
+            config {
+                command = "tail"
+                args = ["-f", "/dev/null"]
+            }
+            resources {
+                    network {
+                        mbits = 1
+                        port "zk" {}
+                    }
+                }   
+            service {
+                name = "zookeeper"
+                tags = ["zookeeper"]
+                port = "zk"
+                }
+        }
         task "zookeeper" {
             driver = "docker"
             artifact {
@@ -88,23 +106,5 @@ job "zookeeper" {
                     }
                 }
             }
-            task "zk-check" {
-                driver = "exec"
-                config {
-                    command = "/bin/sleep"
-                    args = ["1"]
-                }
-                resources {
-                        network {
-                                mbits = 5
-                                port "zk" {}
-                        }
-                }
-                service {
-                    name = "zookeeper"
-                    tags = ["zookeeper"]
-                    port = "zk"
-                    }
-                }
-            }
         }
+    }
