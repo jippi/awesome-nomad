@@ -16,7 +16,12 @@ A curated list of amazingly awesome Nomad tools and shiny things.
 - [jenkinsci/nomad-plugin](https://github.com/jenkinsci/nomad-plugin) - Jenkins plugin to allow using Nomad Jobs to scale out Jenkins build slaves.
 
 ## Self Service
+
 - [FRosner/cluster-broccoli](https://github.com/FRosner/cluster-broccoli) - Cluster Broccoli is a RESTful web service + UI to manage Nomad jobs through a self service application. Jobs are defined based on templates, allowing for a selectable amount of customization.
+
+## Job files
+
+- (jrasell/nomadfiles)[https://github.com/jrasell/nomadfiles]
 
 ## Utilities 
 
