@@ -8,7 +8,7 @@ A curated list of amazingly awesome Nomad tools and shiny things.
 
 ## Auto Scalers
 
-- [underarmour/libra](https://github.com/underarmour/libra)
+- [underarmour/libra](https://github.com/underarmour/libra) - Scale Nomad task group counts based on external metrics Graphite or AWS CloudWatch
 
 ## CI / CD
 
