@@ -12,6 +12,7 @@ A curated list of amazingly awesome Nomad tools and shiny things.
 
 ## CI / CD
 
+- [verizon/nelson](https://verizon.github.io/nelson/) - Lights-out deployment and lifecycle manager for Nomad (and other plugable scheudlers). Fully integrated with Vault and Consul. Optionally can act as a control plane for your traffic routing teir.
 - [jenkinsci/nomad-plugin](https://github.com/jenkinsci/nomad-plugin) - Jenkins plugin to allow using Nomad Jobs to scale out Jenkins build slaves
 
 ## Utilities 
