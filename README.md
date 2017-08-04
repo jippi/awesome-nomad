@@ -6,6 +6,7 @@ A curated list of amazingly awesome Nomad tools and shiny things.
 
 - [jippi/hashi-ui](https://github.com/jippi/hashi-ui) - Interface for Consul & Nomad by HashiCorp, live stream of data, fast search and resource visualization per cluster or client. 
 - [cvandal/nomad-ui](https://github.com/cvandal/nomad-ui) - A UI for Nomad by HashiCorp.
+- [chuyskywalker/nomad-ui](https://github.com/chuyskywalker/nomad-ui) - A basic, linkable, fast Nomad UI.
 
 ## Auto Scalers
 
