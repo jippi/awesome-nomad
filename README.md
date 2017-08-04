@@ -2,11 +2,11 @@
 
 A curated list of amazingly awesome Nomad tools and shiny things.
 
-## UI
+## User interfaces
 
 - [jippi/hashi-ui](https://github.com/jippi/hashi-ui) - Interface for Consul & Nomad, live stream of data, fast search and resource visualization per cluster or client. 
 
-## Auto Scaler
+## Auto Scalers
 
 - [underarmour/libra](https://github.com/underarmour/libra)
 
