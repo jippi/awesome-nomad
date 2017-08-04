@@ -10,6 +10,10 @@ A curated list of amazingly awesome Nomad tools and shiny things.
 
 - [underarmour/libra](https://github.com/underarmour/libra)
 
+## CI / CD
+
+- [jenkinsci/nomad-plugin](https://github.com/jenkinsci/nomad-plugin) - Jenkins plugin to allow using Nomad Jobs to scale out Jenkins build slaves
+
 ## Utilities 
 
 - [seatgeek/nomad-helper](https://github.com/seatgeek/nomad-helper) - Simple helper binary to allow you to reevaluate all jobs, drain an node (and wait for all allocations to stop), force a garbage collection, export / import job task group counts in YAML format
