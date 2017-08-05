@@ -22,7 +22,7 @@ A curated list of amazingly awesome Nomad tools and shiny things.
 
 ## Job files
 
-- [jrasell/nomadfiles](https://github.com/jrasell/nomadfiles)
+- [jrasell/nomadfiles](https://github.com/jrasell/nomadfiles) A collection of Nomad job files for deploying applications to a cluster.
 
 ## Utilities 
 
