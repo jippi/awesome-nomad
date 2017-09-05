@@ -35,4 +35,4 @@ Pull requests with additional tools and projects are more than welcome!
 - [bsd/nomad-watcher](https://github.com/bsd/nomad-watcher) - A simple service that watches Nomad's nodes, jobs, allocations, and evaluations, and writes the events to a file.
 
 ## Tutorials
-- [anubhavmishra/envoy-consul-sds](https://github.com/anubhavmishra/envoy-consul-sds) - A tutorial on how to get Envoy running on Nomad and Envoy's SDS(Service Discovery Service) to access Consul API.
+- [anubhavmishra/envoy-consul-sds](https://github.com/anubhavmishra/envoy-consul-sds) - A tutorial on how to get Envoy running on Nomad and using Envoy's SDS (Service Discovery Service) to access Consul API.
