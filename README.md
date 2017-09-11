@@ -2,15 +2,16 @@
 
 A curated list of amazingly awesome Nomad tools and shiny things.
 
-Pull requests with additional tools and projects are more than welcome! 
+Pull requests with additional tools and projects are more than welcome!
 
 ## User interfaces
 
-- [jippi/hashi-ui](https://github.com/jippi/hashi-ui) - Interface for Consul & Nomad by HashiCorp, live stream of data, fast search and resource visualization per cluster or client. 
+- [jippi/hashi-ui](https://github.com/jippi/hashi-ui) - Interface for Consul & Nomad by HashiCorp, live stream of data, fast search and resource visualization per cluster or client.
 - [cvandal/nomad-ui](https://github.com/cvandal/nomad-ui) - A UI for Nomad by HashiCorp.
 
 ## Auto Scalers
 
+- [elsevier-core-engineering/replicator](https://github.com/elsevier-core-engineering/replicator) - Replicator is a fast and highly concurrent Go daemon that provides dynamic scaling of Nomad jobs and worker nodes.
 - [underarmour/libra](https://github.com/underarmour/libra) - Scale Nomad task group counts based on external metrics Graphite or AWS CloudWatch.
 
 ## CI / CD
@@ -26,7 +27,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 - [jrasell/nomadfiles](https://github.com/jrasell/nomadfiles) A collection of Nomad job files for deploying applications to a cluster.
 
-## Utilities 
+## Utilities
 
 - [seatgeek/nomad-helper](https://github.com/seatgeek/nomad-helper) - Simple helper binary to allow you to reevaluate all jobs, drain an node (and wait for all allocations to stop), force a garbage collection, export / import job task group counts in YAML format.
 - [seatgeek/nomad-firehose](https://github.com/seatgeek/nomad-firehose) - Go binary that "tails" API endpoints and emit messages for each changed resource to RabbitMQ, AWS kinesis or stdout.
