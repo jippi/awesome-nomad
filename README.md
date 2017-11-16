@@ -19,6 +19,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [verizon/nelson](https://verizon.github.io/nelson/) - Lights-out deployment and lifecycle manager for Nomad (and other plugable scheudlers). Fully integrated with Vault and Consul. Optionally can act as a control plane for your traffic routing teir.
 - [jenkinsci/nomad-plugin](https://github.com/jenkinsci/nomad-plugin) - Jenkins plugin to allow using Nomad Jobs to scale out Jenkins build slaves.
 - [jrasell/levant](https://github.com/jrasell/levant) - A templating and deployment tool for HashiCorp Nomad jobs that provides realtime feedback and detailed failure messages upon deployment issues.
+- [ValFadeev/rundeck-nomad-plugin](https://github.com/ValFadeev/rundeck-nomad-plugin) - A Rundeck plugin for authoring and running Nomad jobs by operators or in automated deployment pipelines.
 
 ## Self Service
 
