@@ -13,6 +13,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 - [elsevier-core-engineering/replicator](https://github.com/elsevier-core-engineering/replicator) - Replicator is a fast and highly concurrent Go daemon that provides dynamic scaling of Nomad jobs and worker nodes.
 - [underarmour/libra](https://github.com/underarmour/libra) - Scale Nomad task group counts based on external metrics Graphite or AWS CloudWatch.
+- [Spotinst](https://help.spotinst.com/hc/en-us/articles/115005038289-Nomad-Container-Management-) - SaaS Nomad Cluster autoscaler with option to run the clients on Spot Instances (AWS Only)
 
 ## CI / CD
 
