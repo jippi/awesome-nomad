@@ -7,7 +7,6 @@ Pull requests with additional tools and projects are more than welcome!
 ## User interfaces
 
 - [jippi/hashi-ui](https://github.com/jippi/hashi-ui) - Interface for Consul & Nomad by HashiCorp, live stream of data, fast search and resource visualization per cluster or client.
-- [cvandal/nomad-ui](https://github.com/cvandal/nomad-ui) - A UI for Nomad by HashiCorp.
 
 ## Auto Scalers
 
