@@ -21,6 +21,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [jrasell/levant](https://github.com/jrasell/levant) - A templating and deployment tool for HashiCorp Nomad jobs that provides realtime feedback and detailed failure messages upon deployment issues.
 - [ValFadeev/rundeck-nomad-plugin](https://github.com/ValFadeev/rundeck-nomad-plugin) - A Rundeck plugin for authoring and running Nomad jobs by operators or in automated deployment pipelines.
 - [screwdrivercd/nomad](http://screwdriver.cd/) - Use nomad to schedule and execute workflows triggered by an scm (github/bitbucket).
+- [fortress-shell](https://github.com/fortress-shell/fortress-shell) - Self-written CI/CD SaaS based on Hashicorp Nomad
 
 ## Self Service
 
