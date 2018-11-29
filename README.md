@@ -38,7 +38,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [seatgeek/nomad-crashloop-detector](https://github.com/seatgeek/nomad-crashloop-detector) - Consuming the RabbitMQ output from seatgeek/nomad-firehose, will detect when allocations restart too fast or too often, outputing the offending allocation to RabbitMQ, AWS Kinesis or stdout.
 - [jrasell/nomad-toast](https://github.com/jrasell/nomad-toast) - A tool for receiving notifications based on HashiCorp Nomad events.
 - [sepulworld/deadman-check](https://github.com/sepulworld/deadman-check) - A monitoring companion for Nomad periodic jobs that alerts if periodic isn't running at the expected interval.
-- [bsd/nomad-watcher](https://github.com/bsd/nomad-watcher) - A simple service that watches Nomad's nodes, jobs, allocations, and evaluations, and writes the events to a file.
+- [blalor/nomad-watcher](https://github.com/blalor/nomad-watcher) - A simple service that watches Nomad's nodes, jobs, allocations, deployments, and evaluations, and writes the events to a file.  Also includes a utility for tailing events to a console window.
 - [smintz/nomadgen](https://github.com/smintz/nomadgen) - Define your Nomad jobspecs using Python.
 - [jet/nomad-service-alerter](https://github.com/jet/nomad-service-alerter) - A tool which provides opt-in alerting for the jobs running on Nomad. It mainly covers Consul Health-check alerts and Restart-Loop (when allocations switch between "pending" and "running" state often due to internal errors) alerts providing integration with PagerDuty.
 - [42wim/nomadctld](https://github.com/42wim/nomadctld) - Ssh server with ability to exec/attach/logs/tail/stop hashicorp nomad containers.
