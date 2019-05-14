@@ -10,7 +10,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 ## Auto Scalers
 
-- [elsevier-core-engineering/replicator](https://github.com/elsevier-core-engineering/replicator) - Replicator is a fast and highly concurrent Go daemon that provides dynamic scaling of Nomad jobs and worker nodes.
+- [jrasell/sherpa](https://github.com/jrasell/sherpa) - Sherpa is a job scaler for HashiCorp Nomad and aims to be highly flexible so it can support a wide range of architectures and budgets.
 - [underarmour/libra](https://github.com/underarmour/libra) - Scale Nomad task group counts based on external metrics Graphite or AWS CloudWatch.
 - [Spotinst](https://help.spotinst.com/hc/en-us/articles/115005038289-Nomad-Container-Management-) - SaaS Nomad Cluster autoscaler with option to run the clients on Spot Instances (AWS Only)
 
