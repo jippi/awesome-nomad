@@ -31,6 +31,7 @@ Pull requests with additional tools and projects are more than welcome!
 ## Job files
 
 - [jrasell/nomadfiles](https://github.com/jrasell/nomadfiles) A collection of Nomad job files for deploying applications to a cluster.
+- [perrymanuk/hashi-homelab](https://github.com/perrymanuk/hashi-homelab) Job files for a small lightweight homelab based on nomad and consul from hashicorp.
 
 ## Utilities
 
