@@ -10,6 +10,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 ## Auto Scalers
 
+- [jrasell/chemtrail](https://github.com/jrasell/chemtrail) - Chemtrail is a client scaler for HashiCorp Nomad allowing for dynamic and safe scaling of the client workerpool based on demand.
 - [jrasell/sherpa](https://github.com/jrasell/sherpa) - Sherpa is a job scaler for HashiCorp Nomad and aims to be highly flexible so it can support a wide range of architectures and budgets.
 - [underarmour/libra](https://github.com/underarmour/libra) - Scale Nomad task group counts based on external metrics Graphite or AWS CloudWatch.
 - [Spotinst](https://help.spotinst.com/hc/en-us/articles/115005038289-Nomad-Container-Management-) - SaaS Nomad Cluster autoscaler with option to run the clients on Spot Instances (AWS Only)
