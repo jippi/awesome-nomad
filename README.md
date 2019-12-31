@@ -28,8 +28,8 @@ Pull requests with additional tools and projects are more than welcome!
 ## Plugins
 
 - [trivago/nomad-pot-driver](https://github.com/trivago/nomad-pot-driver) - Plugin for managing FreeBSD Jails with Hashicorp's Nomad
-- [cneira/jail-task-driver](https://github.com/cneira/jail-task-driver) - TAskask driver that uses FreeBSD jails
-- [pascomnet/nomad-driver-podman](https://github.com/pascomnet/nomad-driver-podman) - A nomad taskdriver for [podman containers](https://podman.io) 
+- [cneira/jail-task-driver](https://github.com/cneira/jail-task-driver) - Task driver that uses FreeBSD jails
+- [pascomnet/nomad-driver-podman](https://github.com/pascomnet/nomad-driver-podman) - A nomad task driver for [podman containers](https://podman.io) 
 
 ## Self Service
 
