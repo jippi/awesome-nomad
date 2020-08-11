@@ -30,6 +30,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [trivago/nomad-pot-driver](https://github.com/trivago/nomad-pot-driver) - Plugin for managing FreeBSD Jails with Hashicorp's Nomad
 - [cneira/jail-task-driver](https://github.com/cneira/jail-task-driver) - Task driver that uses FreeBSD jails
 - [pascomnet/nomad-driver-podman](https://github.com/pascomnet/nomad-driver-podman) - A nomad task driver for [podman containers](https://podman.io) 
+- [Roblox/nomad-driver-containerd](https://github.com/Roblox/nomad-driver-containerd) - A nomad task driver for [containerd](https://containerd.io). Documentation on [`nomadproject.io`](https://www.nomadproject.io/docs/drivers/external/containerd).
 
 ## Self Service
 
