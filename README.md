@@ -53,6 +53,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [jet/nomad-service-alerter](https://github.com/jet/nomad-service-alerter) - A tool which provides opt-in alerting for the jobs running on Nomad. It mainly covers Consul Health-check alerts and Restart-Loop (when allocations switch between "pending" and "running" state often due to internal errors) alerts providing integration with PagerDuty.
 - [42wim/nomadctld](https://github.com/42wim/nomadctld) - Ssh server with ability to exec/attach/logs/tail/stop hashicorp nomad containers.
 - [ataccama/nomad-deploy](https://github.com/ataccama/nomad-deploy) - Python3 script that renders a Jinja2 template, plans and registers job. Installable as an executable from [pypi.org](https://pypi.org/project/nomad-deploy/).
+- [ngine-io/chaotic](https://github.com/ngine-io/chaotic) - Choas monkey with integrated nomad support. Runs as batch job or service and kills allocations periodically and randomly.
 
 ## Tutorials
 - [anubhavmishra/envoy-consul-sds](https://github.com/anubhavmishra/envoy-consul-sds) - A tutorial on how to get Envoy running on Nomad and using Envoy's SDS(Service Discovery Service) to access Consul API.
