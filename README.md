@@ -19,6 +19,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [trivago/scalad](https://github.com/trivago/scalad) - Scalad is a nomad horizontal scaler that can be setup from each job Taskgroup meta stanza based on external metrics.
 - [dkt26111/nomad-senlin-autoscale](https://github.com/dkt26111/nomad-senlin-autoscaler) - Nomad Autoscaler plugin for OpenStack Senlin.
 - [jsiebens/nomad-droplets-autoscaler](https://github.com/jsiebens/nomad-droplets-autoscaler) - Nomad Autoscaler plugin for Digital Ocean droplets.
+- [lucretius/nomad-elastigroup-autoscaler](https://github.com/lucretius/nomad-elastigroup-autoscaler) - Nomad Autoscaler plugin for [Spot.io Elastigroup](https://spot.io/products/elastigroup/).
 
 ## CI / CD
 
