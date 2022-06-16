@@ -58,7 +58,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [seatgeek/nomad-firehose](https://github.com/seatgeek/nomad-firehose) - Go binary that "tails" API endpoints and emit messages for each changed resource to RabbitMQ, AWS kinesis or stdout.
 - [seatgeek/nomad-crashloop-detector](https://github.com/seatgeek/nomad-crashloop-detector) - Consuming the RabbitMQ output from seatgeek/nomad-firehose, will detect when allocations restart too fast or too often, outputing the offending allocation to RabbitMQ, AWS Kinesis or stdout.
 - [jrasell/nomad-toast](https://github.com/jrasell/nomad-toast) - A tool for receiving notifications based on HashiCorp Nomad events.
-- [axsuul/nomad-event-streamer](http://github.com/axsuul/nomad-event-streamer) - A tool for sending events to your favorite destinations such as Discord.
+- [axsuul/nomad-event-streamer](http://github.com/axsuul/nomad-event-streamer) - A tool for sending events to your favorite destinations like Discord and Slack.
 - [sepulworld/deadman-check](https://github.com/sepulworld/deadman-check) - A monitoring companion for Nomad periodic jobs that alerts if periodic isn't running at the expected interval.
 - [blalor/nomad-watcher](https://github.com/blalor/nomad-watcher) - A simple service that watches Nomad's nodes, jobs, allocations, deployments, and evaluations, and writes the events to a file. Also includes a utility for tailing events to a console window.
 - [smintz/nomadgen](https://github.com/smintz/nomadgen) - Define your Nomad jobspecs using Python.
