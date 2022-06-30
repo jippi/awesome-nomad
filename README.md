@@ -41,6 +41,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [Roblox/nomad-driver-iis](https://github.com/Roblox/nomad-driver-iis) - A nomad task driver to run [windows IIS](https://www.iis.net/) tasks.
 - [cneira/firecracker-task-driver](https://github.com/cneira/firecracker-task-driver) - A nomad task driver for [Firecracker](https://firecracker-microvm.github.io/) micro-vms.
 - [cneira/nomad-zones-driver](https://github.com/cneira/nomad-zones-driver) - Task driver for [Illumos](https://illumos.org/) zones.
+- [CarbonCollins/nomad-usb-device-plugin](https://gitlab.com/CarbonCollins/nomad-usb-device-plugin) - A USB device plugin for nomad deployments
 
 ## Self Service
 
