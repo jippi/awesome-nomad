@@ -73,6 +73,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [koyeb/kreconciler](https://github.com/koyeb/kreconciler) - A library for building operators and reconcilers on top of Nomad (or other schedulers).
 - [Roblox/nomad-node-problem-detector](https://github.com/Roblox/nomad-node-problem-detector) - A tool used to detect problems on Nomad nodes based on user-defined health checks.
 - [hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack) - An official templating tool and package manager for Nomad, currently a Tech Preview.
+- [sofixa/nomad_follower](https://github.com/sofixa/nomad_follower) - Log forwarder for aggregating allocation logs from nomad worker agents.
 
 ## Tutorials
 
