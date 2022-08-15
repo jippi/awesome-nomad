@@ -30,6 +30,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [ValFadeev/rundeck-nomad-plugin](https://github.com/ValFadeev/rundeck-nomad-plugin) - A Rundeck plugin for authoring and running Nomad jobs by operators or in automated deployment pipelines.
 - [screwdrivercd/nomad](http://screwdriver.cd/) - Use nomad to schedule and execute workflows triggered by an scm (github/bitbucket).
 - [fortress-shell](https://github.com/fortress-shell/fortress-shell) - Self-written CI/CD SaaS based on Hashicorp Nomad
+- [hashicorp/setup-nomad-pack](https://github.com/marketplace/actions/setup-hashicorp-nomad-pack) - HashiCorp-maintained GitHub Action for `nomad-pack`.
 
 ## Plugins
 
