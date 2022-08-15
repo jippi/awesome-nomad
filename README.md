@@ -56,7 +56,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 ## Utilities
 
-- [seatgeek/nomad-helper](https://github.com/seatgeek/nomad-helper) - Simple helper binary to allow you to reevaluate all jobs, drain an node (and wait for all allocations to stop), force a garbage collection, export / import job task group counts in YAML format.
+- [seatgeek/nomad-helper](https://github.com/seatgeek/nomad-helper) - Simple helper binary to allow you to reevaluate all jobs, drain a node (and wait for all allocations to stop), force a garbage collection, export / import job task group counts in YAML format.
 - [seatgeek/nomad-firehose](https://github.com/seatgeek/nomad-firehose) - Go binary that "tails" API endpoints and emit messages for each changed resource to RabbitMQ, AWS kinesis or stdout.
 - [seatgeek/nomad-crashloop-detector](https://github.com/seatgeek/nomad-crashloop-detector) - Consuming the RabbitMQ output from seatgeek/nomad-firehose, will detect when allocations restart too fast or too often, outputing the offending allocation to RabbitMQ, AWS Kinesis or stdout.
 - [jrasell/nomad-toast](https://github.com/jrasell/nomad-toast) - A tool for receiving notifications based on HashiCorp Nomad events.
@@ -67,8 +67,8 @@ Pull requests with additional tools and projects are more than welcome!
 - [jet/nomad-service-alerter](https://github.com/jet/nomad-service-alerter) - A tool which provides opt-in alerting for the jobs running on Nomad. It mainly covers Consul Health-check alerts and Restart-Loop (when allocations switch between "pending" and "running" state often due to internal errors) alerts providing integration with PagerDuty.
 - [42wim/nomadctld](https://github.com/42wim/nomadctld) - Ssh server with ability to exec/attach/logs/tail/stop hashicorp nomad containers.
 - [ataccama/nomad-deploy](https://github.com/ataccama/nomad-deploy) - Python3 script that renders a Jinja2 template, plans and registers job. Installable as an executable from [pypi.org](https://pypi.org/project/nomad-deploy/).
-- [ngine-io/chaotic](https://github.com/ngine-io/chaotic) - Choas monkey with integrated nomad support. Runs as batch job or service and kills allocations periodically and randomly.
-- [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - A a lightweight utility to install Nomad (and other HashiCorp tools) on any remote Linux host.
+- [ngine-io/chaotic](https://github.com/ngine-io/chaotic) - Chaos monkey with integrated nomad support. Runs as batch job or service and kills allocations periodically and randomly.
+- [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - A lightweight utility to install Nomad (and other HashiCorp tools) on any remote Linux host.
 - [let-sh/nomad-deploy-result-action](https://github.com/let-sh/nomad-deploy-result-action) - A GitHub action for automating Nomad deploys with GitOps.
 - [koyeb/kreconciler](https://github.com/koyeb/kreconciler) - A library for building operators and reconcilers on top of Nomad (or other schedulers).
 - [Roblox/nomad-node-problem-detector](https://github.com/Roblox/nomad-node-problem-detector) - A tool used to detect problems on Nomad nodes based on user-defined health checks.
