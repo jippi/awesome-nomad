@@ -13,23 +13,14 @@ Pull requests with additional tools and projects are more than welcome!
 ## Autoscaling
 
 - [hashicorp/nomad-autoscaler](https://github.com/hashicorp/nomad-autoscaler/) - HashiCorp's official Nomad Autoscaler. Supports scaling allocations within Nomad and scaling nodes on AWS, Azure, GCP, or arbitrary infrastructure via plugins.
-- [jrasell/chemtrail](https://github.com/jrasell/chemtrail) - Chemtrail is a client scaler for HashiCorp Nomad allowing for dynamic and safe scaling of the client workerpool based on demand.
-- [jrasell/sherpa](https://github.com/jrasell/sherpa) - Sherpa is a job scaler for HashiCorp Nomad and aims to be highly flexible so it can support a wide range of architectures and budgets.
-- [underarmour/libra](https://github.com/underarmour/libra) - Scale Nomad task group counts based on external metrics Graphite or AWS CloudWatch.
-- [Spotinst](https://help.spotinst.com/hc/en-us/articles/115005038289-Nomad-Container-Management-) - SaaS Nomad Cluster autoscaler with option to run the clients on Spot Instances (AWS Only)
-- [trivago/scalad](https://github.com/trivago/scalad) - Scalad is a nomad horizontal scaler that can be setup from each job Taskgroup meta stanza based on external metrics.
-- [dkt26111/nomad-senlin-autoscale](https://github.com/dkt26111/nomad-senlin-autoscaler) - Nomad Autoscaler plugin for OpenStack Senlin.
-- [jsiebens/nomad-droplets-autoscaler](https://github.com/jsiebens/nomad-droplets-autoscaler) - Nomad Autoscaler plugin for Digital Ocean droplets.
 - [lucretius/nomad-elastigroup-autoscaler](https://github.com/lucretius/nomad-elastigroup-autoscaler) - Nomad Autoscaler plugin for [Spot.io Elastigroup](https://spot.io/products/elastigroup/).
 
 ## CI / CD
 
 - [getnelson/nelson](https://getnelson.io/) - Lights-out deployment and lifecycle manager for Nomad (and other pluggable schedulers). Fully integrated with Vault and Consul. Optionally can act as a control plane for your traffic routing teir.
 - [jenkinsci/nomad-plugin](https://github.com/jenkinsci/nomad-plugin) - Jenkins plugin to allow using Nomad Jobs to scale out Jenkins build slaves.
-- [jrasell/levant](https://github.com/jrasell/levant) - A templating and deployment tool for HashiCorp Nomad jobs that provides realtime feedback and detailed failure messages upon deployment issues.
-- [ValFadeev/rundeck-nomad-plugin](https://github.com/ValFadeev/rundeck-nomad-plugin) - A Rundeck plugin for authoring and running Nomad jobs by operators or in automated deployment pipelines.
+- [hashicorp/levant](https://github.com/hashicorp/levant) - A templating and deployment tool for HashiCorp Nomad jobs that provides realtime feedback and detailed failure messages upon deployment issues.
 - [screwdrivercd/nomad](http://screwdriver.cd/) - Use nomad to schedule and execute workflows triggered by an scm (github/bitbucket).
-- [fortress-shell](https://github.com/fortress-shell/fortress-shell) - Self-written CI/CD SaaS based on Hashicorp Nomad
 - [hashicorp/setup-nomad-pack](https://github.com/marketplace/actions/setup-hashicorp-nomad-pack) - HashiCorp-maintained GitHub Action for `nomad-pack`.
 
 ## Plugins
@@ -52,7 +43,6 @@ Pull requests with additional tools and projects are more than welcome!
 ## Job Files and Packs
 
 - [hashicorp/nomad-pack-community-registry](https://github.com/hashicorp/nomad-pack-community-registry) - The official community registry for Nomad Pack templates.
-- [jrasell/nomadfiles](https://github.com/jrasell/nomadfiles) A collection of Nomad job files for deploying applications to a cluster.
 - [perrymanuk/hashi-homelab](https://github.com/perrymanuk/hashi-homelab) Job files for a small lightweight homelab based on nomad and consul from hashicorp.
 
 ## Utilities
@@ -64,10 +54,6 @@ Pull requests with additional tools and projects are more than welcome!
 - [axsuul/nomad-event-streamer](http://github.com/axsuul/nomad-event-streamer) - A tool for sending Nomad events to your favorite destinations like Discord and Slack.
 - [sepulworld/deadman-check](https://github.com/sepulworld/deadman-check) - A monitoring companion for Nomad periodic jobs that alerts if periodic isn't running at the expected interval.
 - [blalor/nomad-watcher](https://github.com/blalor/nomad-watcher) - A simple service that watches Nomad's nodes, jobs, allocations, deployments, and evaluations, and writes the events to a file. Also includes a utility for tailing events to a console window.
-- [smintz/nomadgen](https://github.com/smintz/nomadgen) - Define your Nomad jobspecs using Python.
-- [jet/nomad-service-alerter](https://github.com/jet/nomad-service-alerter) - A tool which provides opt-in alerting for the jobs running on Nomad. It mainly covers Consul Health-check alerts and Restart-Loop (when allocations switch between "pending" and "running" state often due to internal errors) alerts providing integration with PagerDuty.
-- [42wim/nomadctld](https://github.com/42wim/nomadctld) - Ssh server with ability to exec/attach/logs/tail/stop hashicorp nomad containers.
-- [ataccama/nomad-deploy](https://github.com/ataccama/nomad-deploy) - Python3 script that renders a Jinja2 template, plans and registers job. Installable as an executable from [pypi.org](https://pypi.org/project/nomad-deploy/).
 - [ngine-io/chaotic](https://github.com/ngine-io/chaotic) - Chaos monkey with integrated nomad support. Runs as batch job or service and kills allocations periodically and randomly.
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - A lightweight utility to install Nomad (and other HashiCorp tools) on any remote Linux host.
 - [let-sh/nomad-deploy-result-action](https://github.com/let-sh/nomad-deploy-result-action) - A GitHub action for automating Nomad deploys with GitOps.
