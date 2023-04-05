@@ -74,4 +74,4 @@ Pull requests with additional tools and projects are more than welcome!
 
 ## Other
 
-- [numkem/nomad-spk](https://github.com/numkem/nomad-spk) - spk (Synology package) to install Hashicorp's nomad scheduler into Synology NAS
+- [prabirshrestha/synology-nomad](https://github.com/prabirshrestha/synology-nomad) - HashiCorp Nomad Package for Synology DSM 7+. Includes client and server.
