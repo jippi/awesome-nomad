@@ -22,6 +22,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [hashicorp/levant](https://github.com/hashicorp/levant) - A templating and deployment tool for HashiCorp Nomad jobs that provides realtime feedback and detailed failure messages upon deployment issues.
 - [screwdrivercd/nomad](http://screwdriver.cd/) - Use nomad to schedule and execute workflows triggered by an scm (github/bitbucket).
 - [hashicorp/setup-nomad-pack](https://github.com/marketplace/actions/setup-hashicorp-nomad-pack) - HashiCorp-maintained GitHub Action for `nomad-pack`.
+- [nomad-ops/nomad-ops](https://github.com/nomad-ops/nomad-ops) - A simple way to deploy workloads via GitOps. Similar to ArgoCD with a UI.
 
 ## Plugins
 
