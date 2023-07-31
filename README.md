@@ -63,6 +63,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack) - An official templating tool and package manager for Nomad, currently a Tech Preview.
 - [sofixa/nomad_follower](https://github.com/sofixa/nomad_follower) - Log forwarder for aggregating allocation logs from nomad worker agents.
 - [dmaes/nomad-logger](https://github.com/dmaes/nomad-logger) - Watch Nomad allocations and update logshipper config.
+- [icyleaf/nomad-invalid-services-cleaner](https://github.com/icyleaf/nomad-invalid-services-cleaner) - Auto clean all invalid zombie nomad service(s).
 
 ## Tutorials
 
