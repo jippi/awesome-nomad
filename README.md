@@ -29,6 +29,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [JanMa/nomad-driver-nspawn](https://github.com/JanMa/nomad-driver-nspawn) - A nomad task driver to run containers with [systemd-nspawn](https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html).
 - [Roblox/nomad-driver-iis](https://github.com/Roblox/nomad-driver-iis) - A nomad task driver to run [windows IIS](https://www.iis.net/) tasks.
 - [CarbonCollins/nomad-usb-device-plugin](https://gitlab.com/CarbonCollins/nomad-usb-device-plugin) - A USB device plugin for nomad deployments
+- [Deuxfleurs/nomad-driver-nix2](https://git.deuxfleurs.fr/Deuxfleurs/nomad-driver-nix2) - A driver to run Nix jobs on Nomad
 
 ## Self Service
 
