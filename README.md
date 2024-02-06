@@ -50,6 +50,14 @@ Pull requests with additional tools and projects are more than welcome!
 - [Roblox/nomad-node-problem-detector](https://github.com/Roblox/nomad-node-problem-detector) - A tool used to detect problems on Nomad nodes based on user-defined health checks.
 - [hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack) - An official templating tool and package manager for Nomad, currently a Tech Preview.
 - [dmaes/nomad-logger](https://github.com/dmaes/nomad-logger) - Watch Nomad allocations and update logshipper config.
+- [kamilcuk/nomad-tools](https://github.com/Kamilcuk/nomad-tools) - Collectiion of the following tools:
+    - `nomad-watch` - Run Nomad jobs from the terminal while collecting all tasks logs and allocations events and then exit with the task exit status.
+    - `nomad-cp` - Copy files between host and Nomad allocations just like `docker cp`.
+    - `nomad-vardir` - Set, get and list [Nomad variables](https://developer.hashicorp.com/nomad/docs/concepts/variables) one variable key at a time.
+    - `nomad-dockers` - List docker images referenced by a Nomad job or Nomad job file.
+    - `nomad-port` - List ports allocated to Nomad allocation similar to `docker port`.
+    - `nomad-gitlab-runner` - Implementation of [custom `gitlab-runner` executor](https://docs.gitlab.com/runner/executors/custom.html) that executes Gitalb CI/CD jobs as Nomad tasks.
+    - `nomad-downloadrelease` - Download specific Hashicorp compiled binary version from Hashicorp releases page.
 
 ## Tutorials
 
