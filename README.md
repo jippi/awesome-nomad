@@ -30,6 +30,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [Roblox/nomad-driver-iis](https://github.com/Roblox/nomad-driver-iis) - A nomad task driver to run [windows IIS](https://www.iis.net/) tasks.
 - [CarbonCollins/nomad-usb-device-plugin](https://gitlab.com/CarbonCollins/nomad-usb-device-plugin) - A USB device plugin for nomad deployments
 - [Deuxfleurs/nomad-driver-nix2](https://git.deuxfleurs.fr/Deuxfleurs/nomad-driver-nix2) - A driver to run Nix jobs on Nomad
+- [sorenisanerd/nomad-docker-driver-external](https://github.com/sorenisanerd/nomad-docker-driver-external) - External version of the docker driver for Nomad
 
 ## Self Service
 
