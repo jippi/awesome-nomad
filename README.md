@@ -25,12 +25,12 @@ Pull requests with additional tools and projects are more than welcome!
 
 ## Plugins
 
-- [Roblox/nomad-driver-containerd](https://github.com/Roblox/nomad-driver-containerd) - A nomad task driver for [containerd](https://containerd.io). Documentation on [`nomadproject.io`](https://www.nomadproject.io/docs/drivers/external/containerd).
+- [CarbonCollins/nomad-usb-device-plugin](https://gitlab.com/CarbonCollins/nomad-usb-device-plugin) - A USB device plugin for nomad deployments.
+- [Deuxfleurs/nomad-driver-nix2](https://git.deuxfleurs.fr/Deuxfleurs/nomad-driver-nix2) - A driver to run Nix jobs on Nomad.
 - [JanMa/nomad-driver-nspawn](https://github.com/JanMa/nomad-driver-nspawn) - A nomad task driver to run containers with [systemd-nspawn](https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html).
+- [Roblox/nomad-driver-containerd](https://github.com/Roblox/nomad-driver-containerd) - A nomad task driver for [containerd](https://containerd.io). Documentation on [`nomadproject.io`](https://www.nomadproject.io/docs/drivers/external/containerd).
 - [Roblox/nomad-driver-iis](https://github.com/Roblox/nomad-driver-iis) - A nomad task driver to run [windows IIS](https://www.iis.net/) tasks.
-- [CarbonCollins/nomad-usb-device-plugin](https://gitlab.com/CarbonCollins/nomad-usb-device-plugin) - A USB device plugin for nomad deployments
-- [Deuxfleurs/nomad-driver-nix2](https://git.deuxfleurs.fr/Deuxfleurs/nomad-driver-nix2) - A driver to run Nix jobs on Nomad
-- [sorenisanerd/nomad-docker-driver-external](https://github.com/sorenisanerd/nomad-docker-driver-external) - External version of the docker driver for Nomad
+- [sorenisanerd/nomad-docker-driver-external](https://github.com/sorenisanerd/nomad-docker-driver-external) - External version of the docker driver for Nomad.
 
 ## Self Service
 
