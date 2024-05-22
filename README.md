@@ -50,6 +50,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [Roblox/nomad-node-problem-detector](https://github.com/Roblox/nomad-node-problem-detector) - A tool used to detect problems on Nomad nodes based on user-defined health checks.
 - [hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack) - An official templating tool and package manager for Nomad, currently a Tech Preview.
 - [dmaes/nomad-logger](https://github.com/dmaes/nomad-logger) - Watch Nomad allocations and update logshipper config.
+- [kamilcuk/nomad-tools](https://github.com/Kamilcuk/nomad-tools) - `docker run` for Nomad, watch all logs and events of a job in the terminal, copy files to/from host and allocations, manage Nomad variables as files, list ports associated with job, implementation of [custom `gitlab-runner` executor](https://docs.gitlab.com/runner/executors/custom.html) that executes Gitlab CI/CD jobs as Nomad jobs.
 
 ## Tutorials
 
