@@ -30,6 +30,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [JanMa/nomad-driver-nspawn](https://github.com/JanMa/nomad-driver-nspawn) - A nomad task driver to run containers with [systemd-nspawn](https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html).
 - [Roblox/nomad-driver-containerd](https://github.com/Roblox/nomad-driver-containerd) - A nomad task driver for [containerd](https://containerd.io). Documentation on [`nomadproject.io`](https://www.nomadproject.io/docs/drivers/external/containerd).
 - [Roblox/nomad-driver-iis](https://github.com/Roblox/nomad-driver-iis) - A nomad task driver to run [windows IIS](https://www.iis.net/) tasks.
+- [sevensolutions/nomad-iis](https://github.com/sevensolutions/nomad-iis) - A nomad task driver to run [windows IIS](https://www.iis.net/) tasks.
 - [sorenisanerd/nomad-docker-driver-external](https://github.com/sorenisanerd/nomad-docker-driver-external) - External version of the docker driver for Nomad.
 
 ## Self Service
