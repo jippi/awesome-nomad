@@ -49,6 +49,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [jsiebens/hashi-up](https://github.com/jsiebens/hashi-up) - A lightweight utility to install Nomad (and other HashiCorp tools) on any remote Linux host.
 - [let-sh/nomad-deploy-result-action](https://github.com/let-sh/nomad-deploy-result-action) - A GitHub action for automating Nomad deploys with GitOps.
 - [koyeb/kreconciler](https://github.com/koyeb/kreconciler) - A library for building operators and reconcilers on top of Nomad (or other schedulers).
+- [mr-karan/nomad-events-sink](https://github.com/mr-karan/nomad-events-sink) - Ships nomad event logs to dedicated sinks
 - [Roblox/nomad-node-problem-detector](https://github.com/Roblox/nomad-node-problem-detector) - A tool used to detect problems on Nomad nodes based on user-defined health checks.
 - [hashicorp/nomad-pack](https://github.com/hashicorp/nomad-pack) - An official templating tool and package manager for Nomad, currently a Tech Preview.
 - [dmaes/nomad-logger](https://github.com/dmaes/nomad-logger) - Watch Nomad allocations and update logshipper config.
