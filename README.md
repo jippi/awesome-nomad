@@ -22,6 +22,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [hashicorp/setup-nomad-pack](https://github.com/marketplace/actions/setup-hashicorp-nomad-pack) - HashiCorp-maintained GitHub Action for `nomad-pack`.
 - [nomad-ops/nomad-ops](https://github.com/nomad-ops/nomad-ops) - A simple way to deploy workloads via GitOps. Similar to ArgoCD with a UI.
 - [sunshard-prism/prism-nomad)](https://github.com/sunshard-prism/prism-nomad) - Prism is a tool that simplifies the creation of Nomad job configuration templates and deploys them to a remote cluster.
+- [gerrowadat/nomad-gitops](https://github.com/gerrowadat/nomad-gitops) - Another implementation of 'gitops' style drift detection and deployment for Nomad.
 
 ## Plugins
 
