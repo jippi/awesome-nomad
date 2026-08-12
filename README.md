@@ -26,6 +26,7 @@ Pull requests with additional tools and projects are more than welcome!
 
 ## Plugins
 
+- [volantvm/nomad-driver-ch](https://github.com/volantvm/nomad-driver-ch) - A driver to orchestrate [Intel Cloud Hypervisor](https://www.cloudhypervisor.org/) virtual machines.
 - [CarbonCollins/nomad-usb-device-plugin](https://gitlab.com/CarbonCollins/nomad-usb-device-plugin) - A USB device plugin for nomad deployments.
 - [Deuxfleurs/nomad-driver-nix2](https://git.deuxfleurs.fr/Deuxfleurs/nomad-driver-nix2) - A driver to run Nix jobs on Nomad.
 - [JanMa/nomad-driver-nspawn](https://github.com/JanMa/nomad-driver-nspawn) - A nomad task driver to run containers with [systemd-nspawn](https://www.freedesktop.org/software/systemd/man/systemd-nspawn.html).
